@@ -573,30 +573,13 @@ body:before {
 		}
 
 		@media screen and (max-width: 736px) {
-    .gallery article {
-        transform: none !important;
-        opacity: 1 !important;
-        transition: none !important;
-    }
 
-    .gallery.inactive article {
-        transform: none !important;
-        opacity: 1 !important;
-    }
-}
+			body, input, textarea, select {
+				font-size: 12pt;
+				line-height: 1.5em;
+			}
 
-@media screen and (max-width: 1200px) {
-    .gallery article {
-        transform: none !important;
-        opacity: 1 !important;
-        transition: none !important;
-    }
-
-    .gallery.inactive article {
-        transform: none !important;
-        opacity: 1 !important;
-    }
-}
+		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
