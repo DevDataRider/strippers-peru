@@ -585,7 +585,7 @@ body:before {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .gallery article {
         transform: none !important;
         opacity: 1 !important;
