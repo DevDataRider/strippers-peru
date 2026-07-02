@@ -2027,10 +2027,9 @@ button:hover {
 
 #one {
     background: 
-        radial-gradient(ellipse at center, rgba(240, 165, 0, 0.15) 0%, rgba(10, 8, 0, 0.88) 100%),
-        url("images/overlay.png"), 
-        url("images/one.jpg");
-    background-size: cover, 256px 256px, cover;
+        radial-gradient(ellipse at center, rgba(240, 165, 0, 0.15) 0%, rgba(5, 5, 0, 0.75) 100%),
+        url("/images/one.jpg");
+    background-size: cover,cover;
     background-attachment: scroll, scroll, scroll;
     background-position: center, top left, center center;
     background-repeat: no-repeat, repeat, no-repeat;
@@ -2054,10 +2053,9 @@ button:hover {
 
 #two {
     background: 
-        radial-gradient(ellipse at center, rgba(240, 165, 0, 0.15) 0%, rgba(10, 8, 0, 0.88) 100%),
-        url("images/overlay.png"), 
-        url("images/two.jpg");
-    background-size: cover, 256px 256px, cover;
+        radial-gradient(ellipse at center, rgba(240, 165, 0, 0.15) 0%, rgba(5, 5, 0, 0.75) 100%),
+        url("/images/two.jpg");
+    background-size: contain, cover;
     background-attachment: scroll, scroll, scroll;
     background-position: center, top left, center center;
     background-repeat: no-repeat, repeat, no-repeat;
